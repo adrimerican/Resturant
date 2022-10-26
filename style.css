@@ -39,6 +39,48 @@ header nav ul li {
 }
 /* Header End*/
 
+/*Hero Style Beginning*/
+.hero-info h1 {
+    font-weight: lighter;
+    font-size: 3.5rem;
+    color: rgb(50, 50, 50);
+    margin: 3rem 0;
+}
+
+.vegena {
+    color: #2a8d8f;
+}
+
+#hero-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+#hero-buttons :first-child {
+    background-color: #e76f51;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    box-shadow: 5px 5px 15 #e76f51ec;
+    border-radius: 5px;
+    border: none;
+    margin-right: 15%;
+}
+
+#hero-buttons :last-child {
+    border: none;
+    background-color: white;
+    font-size: 1rem;
+
+}
+
+.hero-info img {
+    margin: 3rem 0;
+}
+/*Hero Style End*/
+
+/*Hero Style Beginning*/
+/*Hero Style End*/
+
 @media screen and (min-width:725px) {
 
     body {
@@ -64,5 +106,26 @@ header nav ul li {
 
     #burger-menu {
         display: none;
+    }
+
+    .hero {
+        display: flex;
+        padding: 1rem;
+    }
+
+    .hero-info {
+        padding: 1rem;
+    }
+
+    #hero-image {
+        width: 375px;
+    }
+
+    .hero-info-block {
+        display: block;
+    }
+
+    #hero-buttons {
+        justify-content: flex-start;
     }
 }
